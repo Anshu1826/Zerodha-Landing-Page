@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.landing-img {
+    width: 810.700px;
+    /* height: 252.637px; */
+    margin: 20px auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.zerodha-icon {
+    width: 129.413px;
+    height: 17px;
+}
+
+.menu-icon {
+    width: 18px;
+    margin: 20px;
+}
+
+nav li p {
+    font-size: 14.4px;
+    color: #666666;
+    padding: 20px;
+    font-family: "Inter", serif;
+    font-weight: 400;
+}
+
+.invest-heading {
+    font-size: 44px;
+    color: #424242;
+    font-family: "Inter", serif;
+    font-weight: 500;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.invest-para {
+    font-size: 1.25rem;
+    font-family: "Inter", serif;
+    font-weight: 400;
+    color: #424242;
+    text-align: center;
+    line-height: 1.7;
+}
+
+.main-list {
+    width: 100%;
+    justify-content: space-between;
+    padding: 7px 200px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+nav li p:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+button {
+    margin: 32px auto;
+    display: block;
+    text-align: center;
+    background-color: #387ed1;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-weight: 500;
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: darkslategray;
+}
+
+.calc {
+    background-color: goldenrod;
+}
+
+footer {
+    margin-top: 100px;
+    padding: 50px;
+}
+
+footer .flex {
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+input {
+    height: 40px;
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 30px;
+    margin: 12px;
+    border: #666666 1px solid;
+    border-radius: 6px;
+}
+
+input:active {
+    box-shadow: #666666 4px 4px 4px;
+}
+
+input:focus {
+    box-shadow: #666666 4px 4px 4px;
+}
+
+.ans {
+    color: #424242;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px;
+    border: #666666 1px solid;
+    border-radius: 22px;
+    box-shadow: #666666 1px solid;
+    text-align: center;
+
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
